@@ -47,5 +47,30 @@ namespace Demo
             Owner o = new Owner();
             m.switchTo(o);
         }
+        public static void switchToSalesPersonMainView()
+        {
+            SalesPerson s = new SalesPerson();
+            m.switchTo(s);
+        }
+        public static void switchToSearchClientMainView()
+        {
+            SearchClient sc = new SearchClient();
+            m.switchTo(sc);
+        }
+        public static void switchToNewCarMainView()
+        {
+            NewCar sc = new NewCar();
+            m.switchTo(sc);
+        }
+        public static void switchToJohnMaysMainView()
+        {
+            JohnMays jm = new JohnMays();
+            m.switchTo(jm);
+        }
+        public static void switchaddNotesMainView()
+        {
+            AddNote note = new AddNote();
+            m.switchTo(note);
+        }
     }
 }

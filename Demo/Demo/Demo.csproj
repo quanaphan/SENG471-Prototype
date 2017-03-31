@@ -54,6 +54,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddNote.xaml.cs">
+      <DependentUpon>AddNote.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JohnMays.xaml.cs">
+      <DependentUpon>JohnMays.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewCar.xaml.cs">
+      <DependentUpon>NewCar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreviousNotes.xaml.cs">
+      <DependentUpon>PreviousNotes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SalesPerson.xaml.cs">
+      <DependentUpon>SalesPerson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SearchClient.xaml.cs">
+      <DependentUpon>SearchClient.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AddNote.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JohnMays.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LogIn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -73,7 +99,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NewCar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Owner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreviousNotes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SalesPerson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SearchClient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

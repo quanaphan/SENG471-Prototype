@@ -16,3 +16,13 @@ c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\Demo.Pr
 c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.Cache
 c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\Demo.exe
 c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\Demo.pdb
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\SalesPerson.g.cs
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\SalesPerson.baml
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\SearchClient.g.cs
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\SearchClient.baml
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\JohnMays.g.cs
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\NewCar.g.cs
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\JohnMays.baml
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\NewCar.baml
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\AddNote.g.cs
+c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\AddNote.baml

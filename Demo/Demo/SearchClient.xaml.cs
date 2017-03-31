@@ -12,33 +12,30 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Controls.Primitives;
 
 namespace Demo
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for SearchClient.xaml
     /// </summary>
-    public partial class LogIn : UserControl
+    public partial class SearchClient : UserControl
     {
-        public static String user;
-        public LogIn()
+        public SearchClient()
         {
             InitializeComponent();
         }
 
-        private void LogInButton_Click(object sender, RoutedEventArgs e)
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
-            user = username.Text;
-            if (user == "Bob") { 
-                MainWindow.switchToOwnerMainView();
-            }
-            else if (user == "Sam")
+            MainWindow.switchToSalesPersonMainView();
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (SearchClient1.Text == "John Mays")
             {
-                MainWindow.switchToSalesPersonMainView();
-            }
-            else if (user == "Tom")
-            {
-                MainWindow.switchToSalesPersonMainView();
+                MainWindow.switchToJohnMaysMainView();
             }
         }
     }
