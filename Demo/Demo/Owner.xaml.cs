@@ -24,5 +24,10 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        private void LogOutButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.switchToLogInView();
+        }
     }
 }
