@@ -23,6 +23,12 @@ namespace Demo
         public PreviousNotes()
         {
             InitializeComponent();
+            addNote.Text = AddNote.note;
+        }
+
+        private void OK_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.switchToJohnMaysMainView();
         }
     }
 }

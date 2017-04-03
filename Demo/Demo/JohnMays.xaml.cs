@@ -23,6 +23,10 @@ namespace Demo
         public JohnMays()
         {
             InitializeComponent();
+            if (LogIn.user == "Tom") {
+                NewCar.IsEnabled = false;
+               // PreviousCar.IsEnabled = false;
+            }
         }
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
@@ -45,6 +49,11 @@ namespace Demo
         private void Addnote_Click(object sender, RoutedEventArgs e)
         {
             MainWindow.switchaddNotesMainView();
+        }
+
+        private void PrevNotes_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.switchPrevNotesMainView();
         }
     }
 }

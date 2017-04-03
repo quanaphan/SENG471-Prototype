@@ -26,3 +26,7 @@ c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\JohnMay
 c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\NewCar.baml
 c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\AddNote.g.cs
 c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\AddNote.baml
+C:\Users\licel\Documents\Visual Studio 2017\Projects\Demo\Demo\obj\Debug\PreviousNotes.g.cs
+C:\Users\licel\Documents\Visual Studio 2017\Projects\Demo\Demo\obj\Debug\PreviousNotes.baml
+C:\Users\licel\Documents\Visual Studio 2017\Projects\Demo\Demo\obj\Debug\RequestClient.g.cs
+C:\Users\licel\Documents\Visual Studio 2017\Projects\Demo\Demo\obj\Debug\RequestClient.baml

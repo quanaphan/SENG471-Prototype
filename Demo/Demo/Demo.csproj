@@ -66,6 +66,9 @@
     <Compile Include="PreviousNotes.xaml.cs">
       <DependentUpon>PreviousNotes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RequestClient.xaml.cs">
+      <DependentUpon>RequestClient.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SalesPerson.xaml.cs">
       <DependentUpon>SalesPerson.xaml</DependentUpon>
     </Compile>
@@ -108,6 +111,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PreviousNotes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RequestClient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

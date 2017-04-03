@@ -16,30 +16,25 @@ using System.Windows.Shapes;
 namespace Demo
 {
     /// <summary>
-    /// Interaction logic for AddNote.xaml
+    /// Interaction logic for RequestClient.xaml
     /// </summary>
-    public partial class AddNote : UserControl
+    public partial class RequestClient : UserControl
     {
-        public static String note = "";
-        public AddNote()
+        public static String client = "";
+        public RequestClient()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            note = "April 7, added by " + LogIn.user +  System.Environment.NewLine + notebox.Text;
-            MainWindow.switchToJohnMaysMainView();
-        }
-
         private void cancel_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow.switchToJohnMaysMainView();
+            MainWindow.switchToSalesPersonMainView();
         }
 
-        private void ScrollBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        private void requestclient_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow.switchToSalesPersonMainView();
+            client = RequestedClient.Text;
         }
     }
 }

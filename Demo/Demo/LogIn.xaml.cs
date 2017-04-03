@@ -20,7 +20,7 @@ namespace Demo
     /// </summary>
     public partial class LogIn : UserControl
     {
-        public static String user;
+        public static String user = "DefaultUser";
         public LogIn()
         {
             InitializeComponent();

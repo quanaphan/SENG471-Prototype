@@ -72,5 +72,15 @@ namespace Demo
             AddNote note = new AddNote();
             m.switchTo(note);
         }
+        public static void switchPrevNotesMainView()
+        {
+            PreviousNotes note = new PreviousNotes();
+            m.switchTo(note);
+        }
+        public static void switchRequestClientMainView()
+        {
+            RequestClient c = new RequestClient();
+            m.switchTo(c);
+        }
     }
 }

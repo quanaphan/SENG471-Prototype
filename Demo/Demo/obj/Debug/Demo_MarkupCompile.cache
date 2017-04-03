@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\obj\Debug\
+C:\Users\licel\Documents\Visual Studio 2017\Projects\Demo\Demo\obj\Debug\
 Demo
 none
 false
 DEBUG;TRACE
-c:\users\licel\documents\visual studio 2017\Projects\Demo\Demo\App.xaml
-81050290976
+C:\Users\licel\Documents\Visual Studio 2017\Projects\Demo\Demo\App.xaml
+10-1026005434
 
-121458521693
+141445149170
 13738642453
-AddNote.xaml;JohnMays.xaml;LogIn.xaml;MainWindow.xaml;NewCar.xaml;Owner.xaml;SalesPerson.xaml;SearchClient.xaml;
+AddNote.xaml;JohnMays.xaml;LogIn.xaml;MainWindow.xaml;NewCar.xaml;Owner.xaml;PreviousNotes.xaml;RequestClient.xaml;SalesPerson.xaml;SearchClient.xaml;
 
 False
 

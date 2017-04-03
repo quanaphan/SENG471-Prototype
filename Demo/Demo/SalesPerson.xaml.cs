@@ -23,6 +23,16 @@ namespace Demo
         public SalesPerson()
         {
             InitializeComponent();
+            if(LogIn.user == "Sam")
+            {
+                JohnMays.IsEnabled = true;
+                JohnMays.Content = "John Mays";
+            }
+            else
+            {
+                JohnMays.IsEnabled = false;
+            }
+            
         }
 
         private void LogOutButton_Click(object sender, RoutedEventArgs e)
@@ -37,7 +47,13 @@ namespace Demo
 
         private void RequestClient_Click(object sender, RoutedEventArgs e)
         {
+            //Global variable, send name to Owner view
+            MainWindow.switchRequestClientMainView();
+        }
 
+        private void JohnMaysChecked(object sender, RoutedEventArgs e)
+        {
+            MainWindow.switchToJohnMaysMainView();
         }
     }
 }

@@ -10,7 +10,8 @@
         <Button x:Name="SearchClient" Content="Search for Client" HorizontalAlignment="Left" Margin="354,127,0,0" VerticalAlignment="Top" Width="105" Height="58" Click="SearchClient_Click"/>
         <Button x:Name="RequestClient" Content="Request Client" HorizontalAlignment="Left" Margin="354,35,0,0" VerticalAlignment="Top" Width="105" Height="58" Click="RequestClient_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="34,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="90"><Run Text="View "/><Run Text="Assigned Client"/></TextBlock>
-        <ScrollViewer HorizontalAlignment="Left" Height="190" Margin="24,69,0,0" VerticalAlignment="Top" Width="136"/>
-
+        <ScrollViewer HorizontalAlignment="Left" Height="190" Margin="24,69,0,0" VerticalAlignment="Top" Width="136" Background="White">
+            <RadioButton x:Name="JohnMays" Checked="JohnMaysChecked" IsEnabled="False" />
+        </ScrollViewer>
     </Grid>
 </UserControl>

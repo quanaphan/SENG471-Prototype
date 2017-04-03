@@ -23,11 +23,25 @@ namespace Demo
         public Owner()
         {
             InitializeComponent();
+            if (RequestClient.client != "")
+            {
+                Request.IsEnabled = true;
+                Request.Content = RequestClient.client + System.Environment.NewLine + "Requested by: " + LogIn.user;
+            }
+            else 
+            {
+                Request.IsEnabled = false;
+            }
         }
 
         private void LogOutButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow.switchToLogInView();
+        }
+
+        private void Request_Checked(object sender, RoutedEventArgs e)
+        {
+            //create new client
         }
     }
 }

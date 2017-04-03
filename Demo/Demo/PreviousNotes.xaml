@@ -5,8 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Demo"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
+             d:DesignHeight="300" Width="548.66">
+    <Grid Background="BlanchedAlmond" Height="321" Margin="0,0,-0.333,-21">
+        <TextBlock HorizontalAlignment="Left" Margin="234,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run FontWeight="Bold" Text="Previous Notes"/></TextBlock>
+        <TextBlock Background ="White" HorizontalAlignment="Left" Margin="82,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="170" Width="386"><Run Text="March 23, 2017"/><Run Text=", added by Sam"/><LineBreak/><Run/><LineBreak/><Run Text="John Mays came to view cars. He is still undecided on which car to get."/><LineBreak/><Run/><LineBreak/><Run Text="March 27, 2017"/><Run Text=", added by Tom"/><LineBreak/><Run/><LineBreak/><Run Text="John M"/><Run Text="ays came in, he is ready to pick his car."/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+                <TextBlock x:Name="addNote" TextWrapping="Wrap"/>
+            </InlineUIContainer></TextBlock>
+        <Button x:Name="OK" Content="OK" HorizontalAlignment="Left" Margin="234,269,0,0" VerticalAlignment="Top" Width="75" Click="OK_Click"/>
     </Grid>
 </UserControl>
