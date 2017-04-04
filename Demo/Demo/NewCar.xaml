@@ -16,6 +16,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="73,160,0,0" TextWrapping="Wrap" Text="Sports Cars" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="73,222,0,0" TextWrapping="Wrap" Text="Vans" VerticalAlignment="Top"/>
         <Button x:Name="back" Content="Back" HorizontalAlignment="Left" Margin="389,102,0,0" VerticalAlignment="Top" Width="82" Height="61" Click="back_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="411,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run FontWeight="Bold" Text="Step "/><Run FontWeight="Bold" Text="2"/><Run FontWeight="Bold" Text=" of 4"/></TextBlock>
 
 
     </Grid>

@@ -112,5 +112,10 @@ namespace Demo
             ConfirmCar c = new ConfirmCar();
             m.switchTo(c);
         }
+        public static void switchToPreviousCar()
+        {
+            SaveCar c = new SaveCar();
+            m.switchTo(c);
+        }
     }
 }

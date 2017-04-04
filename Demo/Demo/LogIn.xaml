@@ -11,7 +11,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="185,57,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="185,175,0,0" Text="Password"/>
         <Button x:Name="LogInButton" Content="Log In" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="212,238,0,0" Click="LogInButton_Click"/>
-        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="185,204,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="185,195,0,0" VerticalAlignment="Top" Width="120" Height="27"/>
 
     </Grid>
 </UserControl>

@@ -30,11 +30,11 @@ namespace Demo
         {
             if (LogIn.user == "1111111111")
             {
-                note = "April 7, added by " + "Sam" + System.Environment.NewLine + notebox.Text;
+                note = "April 7, 2017, added by " + "Sam" + System.Environment.NewLine + notebox.Text;
             }
             else if (LogIn.user == "2222222222")
             {
-                note = "April 7, added by " + "Tom" + System.Environment.NewLine + notebox.Text;
+                note = "April 7, 2017, added by " + "Tom" + System.Environment.NewLine + notebox.Text;
             }
             MainWindow.switchToJohnMaysMainView();
         }

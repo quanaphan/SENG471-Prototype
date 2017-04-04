@@ -20,26 +20,38 @@ namespace Demo
     /// </summary>
     public partial class ConfirmCar : UserControl
     {
+        public static String newCar = "";
+        public static String user = "";
         public ConfirmCar()
         {
-
             InitializeComponent();
+            if (LogIn.user == "1111111111")
+            {
+                user = "Sam"; 
+            }
+            else if (LogIn.user == "2222222222")
+            {
+                user = "Bob";
+            }
+
             if (CarModel1.car1 != "")
             {
-                carconfirmation.Text = CarModel1.car1 + System.Environment.NewLine + "Dealer:" + LogIn.user + System.Environment.NewLine + "Client: John Mays";
+                carconfirmation.Text = CarModel1.car1 + System.Environment.NewLine + "Dealer:" + user + System.Environment.NewLine + "Client: John Mays";
             }
             else if (CarModel2.car2 != "")
             {
-                carconfirmation.Text = CarModel2.car2 + System.Environment.NewLine + "Dealer:" + LogIn.user + System.Environment.NewLine + "Client: John Mays";
+                carconfirmation.Text = CarModel2.car2 + System.Environment.NewLine + "Dealer:" + user + System.Environment.NewLine + "Client: John Mays";
             }
             else if (CarModel3.car3 != "")
             {
-                carconfirmation.Text = CarModel3.car3 + System.Environment.NewLine + "Dealer:" + LogIn.user + System.Environment.NewLine + "Client: John Mays";
+                carconfirmation.Text = CarModel3.car3 + System.Environment.NewLine + "Dealer:" + user + System.Environment.NewLine + "Client: John Mays";
             }
             else if (CarModel4.car4 != "")
             {
-                carconfirmation.Text = CarModel4.car4 + System.Environment.NewLine + "Dealer:" + LogIn.user + System.Environment.NewLine + "Client: John Mays";
+                carconfirmation.Text = CarModel4.car4 + System.Environment.NewLine + "Dealer:" + user + System.Environment.NewLine + "Client: John Mays";
             }
+
+            newCar = "newCar";
         }
 
         private void blueandgrey(object sender, RoutedEventArgs e)

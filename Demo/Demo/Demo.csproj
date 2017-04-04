@@ -90,6 +90,9 @@
     <Compile Include="SalesPerson.xaml.cs">
       <DependentUpon>SalesPerson.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SaveCar.xaml.cs">
+      <DependentUpon>SaveCar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SearchClient.xaml.cs">
       <DependentUpon>SearchClient.xaml</DependentUpon>
     </Compile>
@@ -161,6 +164,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SalesPerson.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SaveCar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

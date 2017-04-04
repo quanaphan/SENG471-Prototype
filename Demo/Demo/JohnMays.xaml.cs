@@ -49,5 +49,13 @@ namespace Demo
         {
             MainWindow.switchPrevNotesMainView();
         }
+
+        private void prevCar(object sender, RoutedEventArgs e)
+        {
+            if (ConfirmCar.newCar != "")
+            {
+                MainWindow.switchToPreviousCar();
+            }
+        }
     }
 }

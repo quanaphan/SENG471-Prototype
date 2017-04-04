@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\licel\Documents\Visual Studio 2017\Projects\Demo\Demo\App.xaml
-16644175933
+17649892598
 11263852231
-201851934593
+21844445848
 13738642453
-AddNote.xaml;CarMaker.xaml;CarModel1.xaml;CarModel2.xaml;CarModel3.xaml;CarModel4.xaml;ConfirmCar.xaml;JohnMays.xaml;LogIn.xaml;MainWindow.xaml;NewCar.xaml;Owner.xaml;PreviousNotes.xaml;RequestClient.xaml;SalesPerson.xaml;SearchClient.xaml;
+AddNote.xaml;CarMaker.xaml;CarModel1.xaml;CarModel2.xaml;CarModel3.xaml;CarModel4.xaml;ConfirmCar.xaml;JohnMays.xaml;LogIn.xaml;MainWindow.xaml;NewCar.xaml;Owner.xaml;PreviousNotes.xaml;RequestClient.xaml;SalesPerson.xaml;SaveCar.xaml;SearchClient.xaml;
 
-True
+False
 
