@@ -23,7 +23,7 @@ namespace Demo
         public JohnMays()
         {
             InitializeComponent();
-            if (LogIn.user == "Tom") {
+            if (LogIn.user == "2222222222") {
                 NewCar.IsEnabled = false;
                // PreviousCar.IsEnabled = false;
             }
@@ -36,14 +36,8 @@ namespace Demo
 
         private void NewCar_Click(object sender, RoutedEventArgs e)
         {
-            if (LogIn.user == "Sam")
-            {
-                MainWindow.switchToNewCarMainView();
-            }
-            else
-            {
-                
-            }
+                MainWindow.switchCarMakeMainView();
+
         }
 
         private void Addnote_Click(object sender, RoutedEventArgs e)

@@ -57,6 +57,24 @@
     <Compile Include="AddNote.xaml.cs">
       <DependentUpon>AddNote.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CarMaker.xaml.cs">
+      <DependentUpon>CarMaker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarModel1.xaml.cs">
+      <DependentUpon>CarModel1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarModel2.xaml.cs">
+      <DependentUpon>CarModel2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarModel3.xaml.cs">
+      <DependentUpon>CarModel3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarModel4.xaml.cs">
+      <DependentUpon>CarModel4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmCar.xaml.cs">
+      <DependentUpon>ConfirmCar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="JohnMays.xaml.cs">
       <DependentUpon>JohnMays.xaml</DependentUpon>
     </Compile>
@@ -76,6 +94,30 @@
       <DependentUpon>SearchClient.xaml</DependentUpon>
     </Compile>
     <Page Include="AddNote.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarMaker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarModel1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarModel2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarModel3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CarModel4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfirmCar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -155,6 +197,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="red and grey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="red and brown.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="blue and grey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="blue and brown.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

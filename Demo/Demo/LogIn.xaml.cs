@@ -29,14 +29,14 @@ namespace Demo
         private void LogInButton_Click(object sender, RoutedEventArgs e)
         {
             user = username.Text;
-            if (user == "Bob") { 
+            if (user == "0000000000") { 
                 MainWindow.switchToOwnerMainView();
             }
-            else if (user == "Sam")
+            else if (user == "1111111111")
             {
                 MainWindow.switchToSalesPersonMainView();
             }
-            else if (user == "Tom")
+            else if (user == "2222222222")
             {
                 MainWindow.switchToSalesPersonMainView();
             }

@@ -24,5 +24,20 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        private void cancel_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.switchToJohnMaysMainView();
+        }
+
+        private void back_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.switchCarMakeMainView();
+        }
+
+        private void X100_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.switchToBlueandBrown();
+        }
     }
 }

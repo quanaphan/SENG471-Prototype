@@ -28,7 +28,14 @@ namespace Demo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            note = "April 7, added by " + LogIn.user +  System.Environment.NewLine + notebox.Text;
+            if (LogIn.user == "1111111111")
+            {
+                note = "April 7, added by " + "Sam" + System.Environment.NewLine + notebox.Text;
+            }
+            else if (LogIn.user == "2222222222")
+            {
+                note = "April 7, added by " + "Tom" + System.Environment.NewLine + notebox.Text;
+            }
             MainWindow.switchToJohnMaysMainView();
         }
 

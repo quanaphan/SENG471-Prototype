@@ -4,9 +4,19 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Demo"
-             mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
+             mc:Ignorable="d" Width="519.471" Height="321.697">
+    <Grid Background="BlanchedAlmond" Margin="0,4,0.333,0">
+        <TextBlock HorizontalAlignment="Left" Margin="190,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Choose Model Of Car"/><LineBreak/><Run/></TextBlock>
+        <Button Content="Civic" HorizontalAlignment="Left" Margin="73,118,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False"/>
+        <Button x:Name="X100" Content="X100" HorizontalAlignment="Left" Margin="73,180,0,0" VerticalAlignment="Top" Width="75" Click="X100_Click"/>
+        <Button Content="Accord" HorizontalAlignment="Left" Margin="190,118,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False"/>
+        <Button Content="Oddysey" HorizontalAlignment="Left" Margin="73,242,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False"/>
+        <Button x:Name="cancel" Content="Cancel" HorizontalAlignment="Left" Margin="389,201,0,0" VerticalAlignment="Top" Width="82" Height="61" Click="cancel_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,97,0,0" TextWrapping="Wrap" Text="Sedans" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,160,0,0" TextWrapping="Wrap" Text="Sports Cars" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,222,0,0" TextWrapping="Wrap" Text="Vans" VerticalAlignment="Top"/>
+        <Button x:Name="back" Content="Back" HorizontalAlignment="Left" Margin="389,102,0,0" VerticalAlignment="Top" Width="82" Height="61" Click="back_Click"/>
+
+
     </Grid>
 </UserControl>

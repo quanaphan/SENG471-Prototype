@@ -23,7 +23,7 @@ namespace Demo
         public SalesPerson()
         {
             InitializeComponent();
-            if(LogIn.user == "Sam")
+            if(LogIn.user == "1111111111")
             {
                 JohnMays.IsEnabled = true;
                 JohnMays.Content = "John Mays";

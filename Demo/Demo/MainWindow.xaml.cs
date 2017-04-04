@@ -82,5 +82,35 @@ namespace Demo
             RequestClient c = new RequestClient();
             m.switchTo(c);
         }
+        public static void switchCarMakeMainView()
+        {
+            CarMaker c = new CarMaker();
+            m.switchTo(c);
+        }
+        public static void switchToBlueandBrown()
+        {
+            CarModel3 c = new CarModel3();
+            m.switchTo(c);
+        }
+        public static void switchToBlueandGrey()
+        {
+            CarModel4 c = new CarModel4();
+            m.switchTo(c);
+        }
+        public static void switchToRedandGrey()
+        {
+            CarModel2 c = new CarModel2();
+            m.switchTo(c);
+        }
+        public static void switchToRedandBrown()
+        {
+            CarModel1 c = new CarModel1();
+            m.switchTo(c);
+        }
+        public static void switchToConfirmCar()
+        {
+            ConfirmCar c = new ConfirmCar();
+            m.switchTo(c);
+        }
     }
 }
