@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Demo"
         mc:Ignorable="d"
-        Title="AutomobileCustom" Height="350" Width="525">
+        Title="Visual Vehicle System" Height="350" Width="525">
     <Grid>
         <StackPanel x:Name="sp" HorizontalAlignment="Left" Height="321" VerticalAlignment="Top" Width="519" Margin="0,0,-0.333,-0.333"/>
 
